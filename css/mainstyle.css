@@ -1,0 +1,10 @@
+html {
+    position           : relative;
+    padding            : 2px;
+    width              : auto;
+    background         : linear-gradient(334deg, #4b913b 0%,#42ccec 100%) no-repeat;
+    filter             : progid:DXImageTransform.Microsoft.gradient(startColorstr='#008080', endColorstr='#99DAFF', GradientType=0);
+}
+
+/* background-color: #42ccec;
+color: #4b913b; */
