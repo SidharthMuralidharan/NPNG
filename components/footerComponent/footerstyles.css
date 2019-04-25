@@ -1,0 +1,22 @@
+.footer-main-div {
+    position: relative;
+    padding : 2px;
+    height  : 48px;
+}
+.footer-label {
+    position: relative;
+    padding: 0px 6px;
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    display: flex;
+    padding: 0px 20px;
+    width: 100%;
+}
+.time{
+    position: absolute;
+    right: 20px;
+    font-size: 22px;
+    bottom: 2px;
+}

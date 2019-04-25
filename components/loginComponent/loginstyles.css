@@ -1,8 +1,20 @@
-.login-main-div {
+.login-main-div,.dummy {
     position: relative;
     padding : 4px;
     width   : auto;
+    height  : auto;
+}
+.login-main-div{
+    width: 97%
+}
+
+.wrapper {
+    position: relative;
+    padding : 4px;
+    width   : auto;
+    height  : auto;
     display : flex;
+    padding-bottom: 88px;
 }
 
 .login-left-panel,
@@ -13,14 +25,13 @@
 }
 
 #logo-image {
-    width  : 440px;
-    height : 220px;
+    width  : 320px;
     opacity: 0.9;
 }
 
 .form-area {
     position: relative;
-    padding : 64px;
+    padding : 48px;
 }
 
 .form-input-area,
@@ -34,26 +45,30 @@
     font-size: 32px;
     padding  : 0px 12px;
 }
-input[type=text],input[type=password] {
-    position: relative;
-    left: 8px;
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
+
+input[type=text],
+input[type=password] {
+    position     : relative;
+    left         : 8px;
+    width        : 50%;
+    padding      : 12px 20px;
+    margin       : 8px 0;
+    display      : inline-block;
+    border       : 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
-  }
-  input[type=submit] {
-    position: relative;
-    left: 16px;
-    width: 75%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
+    box-sizing   : border-box;
+}
+
+input[type=submit] {
+    position        : relative;
+    left            : 72px;
+    width           : 60%;
+    background-color: #3cb6cacf;
+    color           : white;
+    padding         : 14px 20px;
+    margin          : 8px 0;
+    border          : none;
+    border-radius   : 4px;
+    cursor          : pointer;
+    font-size       : 22px;
+}
